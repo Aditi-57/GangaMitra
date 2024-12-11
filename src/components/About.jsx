@@ -81,7 +81,7 @@ export const About = () => {
               transition={{ delay: 0.2 }}
               className="text-4xl font-bold text-sky-900 dark:text-sky-100 sm:text-5xl md:text-6xl"
             >
-              Protecting the Sacred Ganges
+              Know Your Ganga
             </motion.h1>
             <motion.p 
               initial={{ y: 20, opacity: 0 }}
@@ -106,7 +106,7 @@ export const About = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-sky-900 dark:text-sky-100">Our Mission</h2>
             <p className="mt-4 text-lg text-sky-600 dark:text-sky-400">
-              Empowering environmental conservation through data-driven insights
+            Our mission is to unite people, technology, and innovation to restore the sanctity and vitality of the Ganga River.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -134,7 +134,7 @@ export const About = () => {
       </motion.section>
 
       {/* Team Section */}
-      <motion.section 
+      {/* <motion.section 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8 }}
@@ -171,7 +171,7 @@ export const About = () => {
             ))}
           </div>
         </div>
-      </motion.section>
+      </motion.section> */}
 
       {/* Call to Action */}
       <motion.section 

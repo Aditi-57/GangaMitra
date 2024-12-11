@@ -60,7 +60,7 @@ export const Playground = () => {
       max: 40,
       step: 0.5,
       icon: <Thermometer className="h-5 w-5 text-sky-500" />,
-      unit: '°C'
+      unit: 'mg/L'
     },
     {
       id: 'totalcoliform',
@@ -69,7 +69,7 @@ export const Playground = () => {
       max: 1000,
       step: 10,
       icon: <Scale className="h-5 w-5 text-sky-500" />,
-      unit: 'mg/L'
+      unit: 'MPN/100ml'
     }
   ];
 
